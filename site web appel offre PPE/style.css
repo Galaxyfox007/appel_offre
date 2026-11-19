@@ -16,11 +16,26 @@ header {
   justify-content: space-between;
 }
 
-main {
-  margin-top: 40px;
+a { color: white; }
+
+.bouton {
+  display: inline-block;
+  width: auto;
+  padding: 12px;
+  background: white;
+  color: #14836e;
+  text-decoration: none;
 }
 
-h1 { color: white; }
-p, li { line-height: 1.6; }
-a { color: white; }
-.bouton { display: inline-block; padding: 12px; background: white; color: #14836e; text-decoration: none; }
+label {
+  display: block;
+  margin-top: 16px;
+}
+
+input, textarea, button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  font: inherit;
+}
